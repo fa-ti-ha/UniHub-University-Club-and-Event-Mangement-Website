@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - UniHub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">UniHub</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <section class="section auth-section">
+        <div class="auth-card">
+            <h1>User Login</h1>
+
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+
+            <p id="loginMessage" class="form-message"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 UniHub. ISD Lab Project.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
